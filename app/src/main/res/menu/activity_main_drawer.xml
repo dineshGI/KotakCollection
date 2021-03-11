@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/gr1">
+        <item
+            android:id="@+id/pickup"
+            android:title="@string/menu_pickup" />
+    </group>
+    <group android:id="@+id/gr2">
+        <item
+            android:id="@+id/ptp_branch"
+            android:title="@string/menu_ptp_branch" />
+    </group>
+    <group android:id="@+id/gr3">
+        <item
+            android:id="@+id/ptp_online"
+            android:title="@string/menu_ptp_online" />
+    </group>
+    <group android:id="@+id/gr4">
+        <item
+            android:id="@+id/claims_paid"
+            android:title="@string/menu_claims_paid"
+             />
+    </group>
+    <group android:id="@+id/gr5">
+        <item
+            android:id="@+id/dispute_mgnt"
+            android:title="@string/menu_dispute_mgnt"
+            />
+    </group>
+    <group android:id="@+id/gr6">
+        <item
+            android:id="@+id/nc_validation"
+            android:title="@string/menu_nc_validation"
+            />
+    </group>
+    <group android:id="@+id/gr7">
+        <item
+            android:id="@+id/upload"
+            android:title="@string/menu_upload"
+            android:visible="false" />
+
+    </group>
+    <group android:id="@+id/gr8">
+        <item
+            android:id="@+id/change_password"
+            android:title="@string/menu_changepassword"
+            android:visible="true" />
+
+    </group>
+    <group android:id="@+id/gr9">
+        <item
+            android:id="@+id/Logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>
